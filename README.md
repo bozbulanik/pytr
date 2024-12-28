@@ -2,7 +2,8 @@ This is a replica of the [TR-100](https://github.com/usgraphics/TR-100) project
 from the US Graphics Company written in Python.
 
 I liked the aesthetics and wanted to create it just for my own satisfaction. It
-should be cross-platform but it is not tested entirely.
+should be cross-platform but it is not tested entirely. OOP design could have
+been avoided entirely, but it works for now.
 
 ![pytr](pytr.png "screenshot")
 
