@@ -2,9 +2,9 @@ This is a replica of the [TR-100](https://github.com/usgraphics/TR-100) project 
 
 I liked the aesthetics and I created just for my satisfaction. It should be cross-platform but it is not tested entirely.
 
+![pytr](pytr.png "screenshot")
 
-Name: PYTR-100
-
+* Name: PYTR-100
 * Description: Machine Information Replica
 * Author: Emek Kırarslan
 * E-mail: kirarslanemek@gmail.com

@@ -231,7 +231,7 @@ class SystemData:
     def get_bar_graph(self, used, total, length):
         try:
             percent = (used / total * 100) if total > 0 else 0
-            num_blocks = int((percent // 100) * length)
+            num_blocks = int((percent / 100) * length)
             return "█" * num_blocks + "░" * (length - num_blocks)
         except Exception:
             return "░" * length
@@ -399,7 +399,8 @@ class SystemReport:
 
 
 def main():
-    print(SystemReport(report_title="BOZBULANIK PERSONAL LAPTOP").generate_report())
+    system = SystemReport(report_title="BOZBULANIK PERSONAL LAPTOP")
+    print(system.generate_report())
 
 if __name__ == "__main__":
     main()
